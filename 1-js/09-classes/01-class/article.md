@@ -1,11 +1,14 @@
 
 # Class basic syntax
+# 클래스 기본 문법
 
 ```quote author="Wikipedia"
 In object-oriented programming, a *class* is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods).
+객체지향 프로그래밍에서 클래스는 객체 생성, 상태(state)를 위한 초기 값(멤버 변수) 제공, 행동 실행(멤버 함수 또는 메서드)을 위한 확장성있는 프로그램 코드 템플릿(program-code-template)입니다.
 ```
 
 In practice, we often need to create many objects of the same kind, like users, or goods or whatever.
+실제로, 우리는 종종 유저(user) 또는 상품(good)과 같이 같은 종류의 많은 객체들을 생성하길 필요로 합니다.
 
 As we already know from the chapter <info:constructor-new>, `new function` can help with that.
 
